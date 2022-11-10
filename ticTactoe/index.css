@@ -11,11 +11,14 @@ p{
 }
 .boxes{
     display: flex;
-    align-content: center;
-    flex-wrap: wrap;
+    left: 1fr;
     width: 600px;
     height: 600px;
+    flex-wrap: wrap;
+    gap: 2px
+    ;
 }
+
 button{
     width: 200px;
     height: 200px;
