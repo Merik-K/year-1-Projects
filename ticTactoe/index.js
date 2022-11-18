@@ -7,7 +7,14 @@ function _turn(){
     }
 }
 function imgswap(a){
-    document.getElementById(a).src = "TTT-X.png"
+        if(turn == "X"){
+            document.getElementById(a).src = "TTT-X.png"
+            _turn()
+        }else if(turn == "O"){
+            document.getElementById(a).src = "TTT-0.png"
+            _turn()
+        }
+    
 }
 function tic1(){
     imgswap('img1')
